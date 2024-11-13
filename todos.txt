@@ -1,6 +1,10 @@
 Prepare
-shower new
+Shower 2 days from now
 donewith it
+
+Donee
 helloworld
 laast line
 hello this is added from the gui
+
+
