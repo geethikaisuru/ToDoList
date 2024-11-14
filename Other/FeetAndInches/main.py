@@ -8,12 +8,14 @@ inches_label = sg.Text("Inches:", key="inches")
 inches_input = sg.Input(key="inches_input")
 
 convert_button = sg.Button("Convert", key="convert_button")
+complete_button = sg.Button("Complete", key="complete_button")
 output_label = sg.Text("Output:", key="output_label")
 
 window = sg.Window("Feet & Inches Converter", 
         layout= [[feet_label, feet_input],
                 [inches_label, inches_input],
-                [convert_button, output_label]], 
+                [convert_button, output_label],
+                [complete_button]],
                 font=('Helvetica', 18))
 
 while True:
